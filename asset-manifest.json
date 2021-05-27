@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/electoon-react/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/electoon-react/static/js/main.37fc31e4.chunk.js",
-    "main.js.map": "/electoon-react/static/js/main.37fc31e4.chunk.js.map",
-    "runtime-main.js": "/electoon-react/static/js/runtime-main.13a22779.js",
-    "runtime-main.js.map": "/electoon-react/static/js/runtime-main.13a22779.js.map",
+    "main.css": "/electoon-react/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/electoon-react/static/js/main.5d226476.chunk.js",
+    "main.js.map": "/electoon-react/static/js/main.5d226476.chunk.js.map",
+    "runtime-main.js": "/electoon-react/static/js/runtime-main.4ba3d0de.js",
+    "runtime-main.js.map": "/electoon-react/static/js/runtime-main.4ba3d0de.js.map",
     "static/css/2.3089e125.chunk.css": "/electoon-react/static/css/2.3089e125.chunk.css",
-    "static/js/2.520d8381.chunk.js": "/electoon-react/static/js/2.520d8381.chunk.js",
-    "static/js/2.520d8381.chunk.js.map": "/electoon-react/static/js/2.520d8381.chunk.js.map",
-    "static/js/3.ebf3593d.chunk.js": "/electoon-react/static/js/3.ebf3593d.chunk.js",
-    "static/js/3.ebf3593d.chunk.js.map": "/electoon-react/static/js/3.ebf3593d.chunk.js.map",
+    "static/js/2.740dce5d.chunk.js": "/electoon-react/static/js/2.740dce5d.chunk.js",
+    "static/js/2.740dce5d.chunk.js.map": "/electoon-react/static/js/2.740dce5d.chunk.js.map",
+    "static/js/3.e000c4e7.chunk.js": "/electoon-react/static/js/3.e000c4e7.chunk.js",
+    "static/js/3.e000c4e7.chunk.js.map": "/electoon-react/static/js/3.e000c4e7.chunk.js.map",
     "index.html": "/electoon-react/index.html",
     "static/css/2.3089e125.chunk.css.map": "/electoon-react/static/css/2.3089e125.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/electoon-react/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.520d8381.chunk.js.LICENSE.txt": "/electoon-react/static/js/2.520d8381.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/electoon-react/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/electoon-react/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.740dce5d.chunk.js.LICENSE.txt": "/electoon-react/static/js/2.740dce5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.13a22779.js",
+    "static/js/runtime-main.4ba3d0de.js",
     "static/css/2.3089e125.chunk.css",
-    "static/js/2.520d8381.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.37fc31e4.chunk.js"
+    "static/js/2.740dce5d.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.5d226476.chunk.js"
   ]
 }
