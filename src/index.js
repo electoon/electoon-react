@@ -3,13 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SiteHeader from './common/header/SiteHeader';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <SiteHeader />
-    </div>
     <div>
       <App />
     </div>
