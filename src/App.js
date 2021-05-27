@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import {Layout, Breadcrumb } from 'antd';
+import "antd/dist/antd.css";
+
+import SiderMenu from './common/SiderMenu.js';
+
+const { Header, Content, Footer } = Layout;
 
 const App = () => {
+
+  const [currMenuNo, setCurrMenuNo] = useState(0);
+
+  const selMenuEvent = (val) => {
+    console.log(val);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout style={{ minHeight: '100vh' }}>
+        <SiderMenu currMenuNo={currMenuNo} selMenuEvent={selMenuEvent} />
+        <Layout className="site-layout">
+          <Header style={{background: '#fff', paddingLeft: 24 }}>
+            <h1>웅캬캬캬</h1>
+          </Header>
+          <Content style={{ margin: '0 16px' }}>
+            <Breadcrumb style={{ margin: '16px 0' }}>
+              <Breadcrumb.Item>User</Breadcrumb.Item>
+              <Breadcrumb.Item>Bill</Breadcrumb.Item>
+            </Breadcrumb>
+            <div style={{background: '#fff', padding: 24, minHeight: 360 }}>
+              뭘 좀 해볼까...
+            </div>
+          </Content>
+          <Footer style={{ textAlign: 'center' }}>안녕</Footer>
+        </Layout>
+      </Layout>
   );
 }
 
