@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/electoon-react/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/electoon-react/static/js/main.d8b73b85.chunk.js",
-    "main.js.map": "/electoon-react/static/js/main.d8b73b85.chunk.js.map",
+    "main.js": "/electoon-react/static/js/main.ebb27cc1.chunk.js",
+    "main.js.map": "/electoon-react/static/js/main.ebb27cc1.chunk.js.map",
     "runtime-main.js": "/electoon-react/static/js/runtime-main.faf5b24f.js",
     "runtime-main.js.map": "/electoon-react/static/js/runtime-main.faf5b24f.js.map",
     "static/css/2.3089e125.chunk.css": "/electoon-react/static/css/2.3089e125.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.3089e125.chunk.css",
     "static/js/2.aae9c85a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.d8b73b85.chunk.js"
+    "static/js/main.ebb27cc1.chunk.js"
   ]
 }
