@@ -37,8 +37,8 @@ const SiderMenu = ({ currMenuNo, selMenuEvent, menuList }) => {
 
 	const onCollapse = () => {
 		logoStyle.style = {
-			height: !collapsed ? "34px" : "32px",
-			marginTop: !collapsed ? "22px" : "24px",
+			height: "32px",
+			marginTop: "22px",
 			marginLeft: !collapsed ? "31px" : "22px",
 			color: "#fff",
 			transition: !collapsed ? "margin 0.29s" : "margin 0.29s",
@@ -110,7 +110,6 @@ const SiderMenu = ({ currMenuNo, selMenuEvent, menuList }) => {
 						color: "#fff",
 						fontSize: "150%",
 					}}
-					size='large'
 					title='실험실'
 				/>
 				<span {...titleVisibility}>&nbsp;실험실</span>
