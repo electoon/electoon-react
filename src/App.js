@@ -52,7 +52,11 @@ const App = () => {
 	});
 
 	const selMenuEvent = (val) => {
-		console.log(val);
+		if (val) {
+			let currMenu = [val];
+			console.log(currMenu);
+			setCurrMenuNo(currMenu);
+		}
 	};
 
 	return (

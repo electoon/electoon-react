@@ -114,7 +114,11 @@ const SiderMenu = ({ currMenuNo, selMenuEvent, menuList }) => {
 				/>
 				<span {...titleVisibility}>&nbsp;실험실</span>
 			</div>
-			<Menu theme='dark' defaultSelectedKeys={["1"]} mode='inline'>
+			<Menu
+				theme='dark'
+				defaultSelectedKeys={[`${currMenuNo}`]}
+				mode='inline'
+			>
 				{menuItems}
 			</Menu>
 		</Sider>
