@@ -36,19 +36,19 @@ const SiderMenu = ({ currMenuNo, selMenuEvent, menuList }) => {
 	});
 
 	const onCollapse = () => {
+		titleVisibility.style = {
+			wordBreak: "keep-all",
+			opacity: !collapsed ? 0 : 100,
+			transition:
+				"opacity 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s",
+		};
+
 		logoStyle.style = {
 			height: "32px",
 			marginTop: "22px",
 			marginLeft: !collapsed ? "31px" : "22px",
 			color: "#fff",
 			transition: !collapsed ? "margin 0.29s" : "margin 0.29s",
-		};
-
-		titleVisibility.style = {
-			wordBreak: "keep-all",
-			opacity: !collapsed ? 0 : 100,
-			transition:
-				"opacity 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s",
 		};
 
 		setCollapsed(!collapsed);
