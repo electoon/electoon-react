@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Layout, Breadcrumb, Table } from "antd";
+import { Layout, Breadcrumb, Table, Button } from "antd";
 import "antd/dist/antd.css";
 
 import SiderMenu from "./common/SiderMenu.js";
@@ -55,16 +55,18 @@ const App = () => {
 		{
 			title : '번호',
 			dataIndex : 'no',
-			key : 'no'
+			key : 'no',
+			sorter : (a, b) => a.no - b.no
 		},
 		{
 			title : '이름',
 			dataIndex : 'name',
-			key : 'name'
+			key : 'name',
+			sorter: (a, b) => a.name.localeCompare(b.name)
 		}
 	];
 
-	const colData = [
+	const [colData, setColData] = useState([
 		{
 			no : 1,
 			name : '김길동'
@@ -81,7 +83,7 @@ const App = () => {
 			no : 4,
 			name : '홍길동'
 		}
-	];
+	]);
 
 	const selMenuEvent = (val) => {
 		if (val) {
