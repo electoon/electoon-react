@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Layout, Breadcrumb } from "antd";
+import { Layout, Breadcrumb, Table } from "antd";
 import "antd/dist/antd.css";
 
 import SiderMenu from "./common/SiderMenu.js";
@@ -51,6 +51,38 @@ const App = () => {
 		);
 	});
 
+	const colHeader = [
+		{
+			title : '번호',
+			dataIndex : 'no',
+			key : 'no'
+		},
+		{
+			title : '이름',
+			dataIndex : 'name',
+			key : 'name'
+		}
+	];
+
+	const colData = [
+		{
+			no : 1,
+			name : '김길동'
+		},
+		{
+			no : 2,
+			name : '고길동'
+		},
+		{
+			no : 3,
+			name : '공길동'
+		},
+		{
+			no : 4,
+			name : '홍길동'
+		}
+	];
+
 	const selMenuEvent = (val) => {
 		if (val) {
 			let currMenu = [val];
@@ -82,6 +114,7 @@ const App = () => {
 						}}
 					>
 						뭘 좀 해볼까...
+						<Table columns={colHeader} dataSource={colData} />
 					</div>
 				</Content>
 				<Footer style={{ textAlign: "center" }}>안녕</Footer>
